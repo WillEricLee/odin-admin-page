@@ -6,8 +6,17 @@ body {
 
     margin:0px;
 }
-body img {
+img {
     width: 100px;
+}
+h1 {
+    font-family: sans-serif;
+}
+h2 {
+    font-family: sans-serif;
+}
+p {
+    font-family: sans-serif;
 }
 
 .sidebar {
@@ -30,6 +39,8 @@ body img {
     justify-content: space-between;
     background-color:white;
     padding:10px;
+    padding-left:75px;
+    padding-right:75px;
 }
 .content {
     grid-column-start: 2;
@@ -83,9 +94,25 @@ body img {
     display:flex;
     align-items: center;
 }
+.searchbar img {
+    width:50px;
+}
+.searchbar input {
+    
+}
 .profile-half {
     display:flex;
     align-items: center;
+
+    gap:30px;
+}
+.notification-icon {
+    width:50px;
+}
+.small-pfp {
+    width:75px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .greeting {
