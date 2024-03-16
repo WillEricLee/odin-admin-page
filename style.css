@@ -1,7 +1,7 @@
 body {
     display:grid;
     grid-template-columns: 350px 1fr;
-    grid-template-rows: 350px 1fr;
+    grid-template-rows: 250px 1fr;
     height:100vh;
 
     margin:0px;
@@ -81,7 +81,6 @@ p {
 
 .top-half {
     display:flex;
-    justify-content: space-between;
     flex:2;
 }
 .bottom-half {
@@ -93,12 +92,24 @@ p {
 .searchbar {
     display:flex;
     align-items: center;
+
+    flex:1;
+    padding-right: 500px;
 }
 .searchbar img {
-    width:50px;
+    width:30px;
+    margin-right:20px;
 }
 .searchbar input {
-    
+    border: 0;
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
+
+    background-color:lightgray;
+    height: 50px;
+    flex:1;
+    border-radius: 30px;
 }
 .profile-half {
     display:flex;
