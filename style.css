@@ -7,7 +7,7 @@ body {
     margin:0px;
 }
 img {
-    width: 100px;
+    max-width: 100px;
 }
 h1 {
     font-family: sans-serif;
@@ -234,6 +234,7 @@ p {
     border-radius: 20px;
 
     padding:20px 40px 20px 40px;
+    box-shadow: 5px 5px 2px rgb(0 0 0 / 20%);
 }
 .announcements-entry p {
     display: -webkit-box;
@@ -249,11 +250,44 @@ p {
 
 
 .trending {
+    display:flex;
+    flex-direction: column;
     flex:1;
+}
+.trending-content {
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 20px;
+
+    padding:20px 40px 20px 40px;
+    box-shadow: 5px 5px 2px rgb(0 0 0 / 20%);
 }
 .trending-entry {
     display:flex;
+    align-items: center;
+    gap:20px;
 }
-.right-bar img {
-    width:50px;
+.trending-entry img {
+    width:85px;
+    height:85px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.trending-text {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+
+}
+.trending-text h3 {
+    margin:0px;
+    margin-bottom: 5px;
+}
+.trending-text p {
+    color:gray;
+    margin: 0px;
 }
