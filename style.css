@@ -92,15 +92,22 @@ body img {
     grid-template-columns: 3fr 1fr;
     border:4px solid green;
 }
+.main-content {
+    display:flex;
+    flex-direction: column;
+}
 .projects-grid {
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 30px;
 
+    gap: 30px;
+    flex:1;
     margin: 30px;
     border: 4px solid yellow;
-    height:max-content;
+}
+.project {
+    flex:1;
 }
 .bottom-icons {
     display:flex;
