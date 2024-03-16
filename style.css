@@ -44,18 +44,28 @@ body img {
     display:flex;
     align-items: center;
 }
+.logo-name h1 {
+    color:white;
+    font-family: sans-serif;
+}
 .logo-name img {
     width: 75px;
     margin:10px;
+    filter:invert(1);
 }
 
 .page {
     display:flex;
     align-items: center;
 }
+.page h2 {
+    color:white;
+    font-family: sans-serif;
+}
 .page img {
     width:30px;
     margin:20px;
+    filter:invert(1);
 }
 
 .top-half {
