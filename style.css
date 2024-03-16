@@ -94,7 +94,9 @@ p {
     align-items: center;
 
     flex:1;
-    padding-right: 500px;
+}
+.searchbar-space {
+    flex:1;
 }
 .searchbar img {
     width:30px;
@@ -108,7 +110,7 @@ p {
 
     background-color:lightgray;
     height: 50px;
-    flex:1;
+    flex:2;
     border-radius: 30px;
 }
 .profile-half {
@@ -130,15 +132,33 @@ p {
     display:flex;
     align-items: center;
 }
+.greeting img {
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 30px;
+}
 .action-buttons {
     display: flex;
     align-items: center;
+
+    gap:50px;
+}
+.action-buttons button {
+    border: 0;
+    background: none;
+    box-shadow: none;
+    border-radius: 20px;
+
+    padding:15px 30px 15px 30px;
+
+    background-color: #df4c73;
+    color:white;
+    font-size: 24px;
 }
 
 .content {
     display:grid;
     grid-template-columns: 3fr 1fr;
-    border:4px solid green;
 }
 .main-content {
     display:flex;
@@ -152,7 +172,6 @@ p {
     gap: 30px;
     flex:1;
     margin: 30px;
-    border: 4px solid yellow;
 }
 .project {
     flex:1;
