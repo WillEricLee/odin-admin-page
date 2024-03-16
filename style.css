@@ -86,3 +86,44 @@ body img {
     display: flex;
     align-items: center;
 }
+
+.content {
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    border:4px solid green;
+}
+.projects-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+
+    margin: 30px;
+    border: 4px solid yellow;
+    height:max-content;
+}
+.bottom-icons {
+    display:flex;
+    justify-content: right;
+    gap:10px;
+}
+.bottom-icons img {
+    width:25px;
+}
+
+.right-bar {
+    display:flex;
+    flex-direction: column;
+}
+.announcements {
+    flex:1;
+}
+.trending {
+    flex:1;
+}
+.trending-entry {
+    display:flex;
+}
+.right-bar img {
+    width:50px;
+}
