@@ -15,6 +15,10 @@ h1 {
 h2 {
     font-family: sans-serif;
 }
+h3 {
+    font-family: sans-serif;
+
+}
 p {
     font-family: sans-serif;
     font-size: 18px;
@@ -172,8 +176,8 @@ p {
     grid-template-rows: 1fr 1fr 1fr;
 
     gap: 30px;
+    margin-right:50px;
     flex:1;
-    margin: 30px;
 }
 .project {
     flex:1;
@@ -198,6 +202,13 @@ p {
     height:80%;
     padding:25px;
 }
+.project-content p {
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 .bottom-icons {
     display:flex;
     justify-content: right;
@@ -215,6 +226,28 @@ p {
 .announcements {
     flex:1;
 }
+.announcements-content {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+
+    padding:20px 40px 20px 40px;
+}
+.announcements-entry p {
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.announcements-line {
+    width:100%;
+    border:1px solid grey;
+}
+
+
 .trending {
     flex:1;
 }
